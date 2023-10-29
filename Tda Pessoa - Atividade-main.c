@@ -5,8 +5,8 @@ int main() {
     Data dataNascimento;
     Pessoa pessoa;
 
-    preencherData(&dataNascimento, 1, 1, 1980);
-    preencherPessoa(&pessoa, "Joao da Silva", dataNascimento, "123.456.789-00");
+    preencherData(&dataNascimento, 18, 04, 2004);
+    preencherPessoa(&pessoa, "Jean Miguel", dataNascimento, "065.419.012-79");
 
     printf("Dados da Pessoa:\n");
     imprimirPessoa(&pessoa);
