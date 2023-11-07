@@ -9,7 +9,7 @@ int main() {
     double volume = calcularVolume(meuCubo);
 
     printf("Lado do cubo: %.2f\n", lado);
-    printf("¡rea do cubo: %.2f\n", area);
+    printf("√Årea do cubo: %.2f\n", area);
     printf("Volume do cubo: %.2f\n", volume);
 
     destruirCubo(meuCubo);
