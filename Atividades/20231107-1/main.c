@@ -19,7 +19,7 @@ int main() {
     }
     imprimirListaIterativo(minhaLista);
 
-    printf("Busca bin·ria - Õndice do elemento 3: %d\n", buscaBinariaRecursiva(minhaLista, 3, 0, minhaLista.quantidade - 1));
+    printf("Busca bin√°ria - √çndice do elemento 3: %d\n", buscaBinariaRecursiva(minhaLista, 3, 0, minhaLista.quantidade - 1));
 
     printf("Imprimir Lista Recursivo:\n");
     imprimirListaRecursivo(minhaLista, 0);
@@ -28,7 +28,7 @@ int main() {
     printf("Menor elemento: %d\n", buscarMenorRecursivo(minhaLista, minhaLista.quantidade - 1));
     printf("Soma dos elementos: %d\n", somaElementosRecursivo(minhaLista, minhaLista.quantidade - 1));
     printf("Produto dos elementos: %d\n", produtoElementosRecursivo(minhaLista, minhaLista.quantidade - 1));
-    printf("Ol· mundo");
+    printf("Ol√° mundo");
 
     liberarLista(&minhaLista);
 
