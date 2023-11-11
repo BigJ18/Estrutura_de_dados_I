@@ -47,7 +47,7 @@ int buscaBinariaRecursiva(LISTA lista, int elemento, int inicio, int fim) {
             return buscaBinariaRecursiva(lista, elemento, inicio, meio - 1);
         }
     }
-    return -1; // Elemento n„o encontrado
+    return -1; // Elemento n√£o encontrado
 }
 
 void imprimirListaRecursivo(LISTA lista, int indice) {
