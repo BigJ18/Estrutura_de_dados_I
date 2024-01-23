@@ -118,6 +118,13 @@ void imprimir_pilha2(PILHA2 *pilha2) {
 
 
 int main() {
+
+    time_t now;
+    time(&now);
+    printf("Data e hora de entrega %s\n", ctime(&now));
+    printf("Jean Miguel Conceiçao Brito\n");
+    printf("Numero do exercicio: 003\n");
+
     PILHA p;
     PILHA2 p2;
 
@@ -149,10 +156,6 @@ int main() {
     imprimir_pilha1(&p);
 
     imprimir_pilha2(&p2);
-
-    time_t now;
-    time(&now);
-    printf("Data e hora de entrega %s", ctime(&now));
 
 
 }
