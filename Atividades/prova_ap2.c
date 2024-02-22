@@ -91,25 +91,25 @@ int main() {
     raiz = inserir_versao_1(raiz, 60);
     raiz = inserir_versao_1(raiz, 80);
 
-    printf("Arvore em ordem: ");
+    printf("Árvore em ordem: ");
     imprimirEmOrdem(raiz);
     printf("\n");
 
-    int chaveBusca = 5;
+    int chaveBusca = 40;
     NoArv* resultadoBusca = buscar(raiz, chaveBusca);
-    
     if (resultadoBusca != NULL) {
-        printf("Elemento %d encontrado na arvore.\n", chaveBusca);
+        printf("Elemento %d encontrado na árvore.\n", chaveBusca);
     } else {
-        printf("Elemento %d nao encontrado na arvore.\n", chaveBusca);
+        printf("Elemento %d não encontrado na árvore.\n", chaveBusca);
     }
 
     int chaveRetirar = 30;
     raiz = retirar(raiz, chaveRetirar);
-    printf("Arvore apos retirar o elemento %d: ", chaveRetirar);
+    printf("Árvore após retirar o elemento %d: ", chaveRetirar);
     imprimirEmOrdem(raiz);
     printf("\n");
 
+    // Liberar a memória alocada
     free(raiz);
 
     return 0;
